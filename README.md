@@ -2,8 +2,6 @@
 
 This project was made with React, TypeScript, TailwindCSS & SASS
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
-
-### `yarn start`
+You can see the [demo](https://sagirov-test-dolsowsky.vercel.app/) (Vercel)
