@@ -1,0 +1,12 @@
+.MenuButton {
+  @apply inline-flex w-full justify-center;
+  @apply px-4 py-2 text-sm font-medium text-white;
+  @apply shadow-sm transition-colors;
+  @apply hover:bg-orange-500 hover:text-stone-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100;
+}
+.ItemsContainer {
+  @apply absolute right-0 mt-2 w-56;
+  @apply origin-top-right rounded-md;
+  @apply bg-white shadow-lg ring-1 ring-black ring-opacity-5;
+  @apply focus:outline-none;
+}
