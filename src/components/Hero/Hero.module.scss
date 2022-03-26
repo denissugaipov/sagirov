@@ -1,0 +1,107 @@
+.PlanetImage {
+  @apply absolute left-[calc(50%_-_205px)] top-[140px] hidden w-[410px] tablet:flex;
+}
+
+.Button {
+  @apply px-3 py-1 text-white shadow-sm shadow-white;
+
+  box-shadow: 0 16.5px 0 -15px #1d4ed8, 4.5px 4.5px 0 -3px #1d4ed8,
+    -4.5px -4.5px 0 -3px #1d4ed8, 0 0 0 1.5px #fff,
+    -5px 4px 0 6px rgba(0, 0, 0, 0);
+}
+
+.Contents {
+  @apply flex h-[660px] flex-row justify-center;
+}
+
+.Separator {
+  @apply flex flex-col;
+  @apply w-[1330px] items-center justify-center space-y-24;
+
+  @screen mobile {
+    @apply flex-row space-y-0;
+  }
+
+  @screen tablet {
+    @apply justify-between;
+  }
+}
+
+.Action {
+  @apply flex w-[1330px] flex-col items-center justify-center space-y-24;
+
+  @screen mobile {
+    @apply flex-row space-y-0;
+  }
+
+  @screen tablet {
+    @apply justify-between;
+  }
+}
+
+.Adventure {
+  @apply flex h-[10%] w-full flex-col items-center justify-between space-y-4 text-center;
+
+  @screen mobile {
+    @apply h-[25%] w-1/2 items-start space-y-0 text-left;
+  }
+}
+
+.textBlockDesktop {
+  @apply bg-gradient-to-r from-white via-orange-600 to-orange-700;
+  @apply bg-clip-text text-transparent;
+}
+
+.textBlockMobile {
+  @apply text-white;
+}
+
+.HeroDescription {
+  @apply text-2xl leading-none;
+}
+
+.FirstLine {
+  @apply absolute;
+  @apply ml-[188px] mt-[14px] h-[1px] w-[91px] rotate-45;
+  @apply bg-red-100 bg-gradient-to-r from-black to-slate-500;
+}
+
+.SecondLine {
+  @apply absolute;
+  @apply mt-[46px] ml-[265px] h-[1px] w-[372px];
+  @apply bg-gradient-to-r from-slate-500 to-white;
+}
+
+.StartButton {
+  @apply flex items-center justify-center px-2 py-1 text-white transition-all;
+  @apply h-10 w-[200px];
+  box-shadow: 5px 5px 0 -4px #1e3a8a, -5px -5px 0 -4px #1e3a8a, 0 0 0 1px #fff;
+}
+
+.StartButton:hover {
+  box-shadow: 5px 5px 0 -4px #fff, -5px -5px 0 -4px #fff, 0 0 0 1px #fff;
+}
+
+.GlowLeft {
+  @apply absolute;
+  @apply mt-10 -ml-[200px] h-2 w-2;
+  @apply bg-white blur-sm;
+}
+
+.GlowRight {
+  @apply absolute;
+  @apply ml-[200px] -mt-[37px] h-2 w-2;
+  @apply bg-white blur-sm;
+}
+
+.HeroHeading {
+  margin-top: 3rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+
+  @screen mobile {
+    margin-top: 0;
+    font-size: 3.9rem;
+  }
+}

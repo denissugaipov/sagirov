@@ -1,0 +1,12 @@
+{
+  "extends": ["@atolye15/stylelint-config", "stylelint-prettier/recommended"],
+  "rules": {
+    "meowtec/no-px": null,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extends", "tailwind", "screen"]
+      }
+    ]
+  }
+}

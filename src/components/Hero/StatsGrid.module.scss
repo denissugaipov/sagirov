@@ -4,11 +4,17 @@
   @apply space-y-3;
   @apply border-white border-opacity-10;
   @apply bg-slate-500 bg-opacity-5 transition-all;
-  @apply hover:border-b-[1px] hover:border-r-[1px] hover:shadow-[inset_-50px_-50px_50px_9px_rgba(255,255,255,0.05)];
 }
+.GridItem:hover {
+  box-shadow: inset -50px -50px 50px 9px #ffffff0d;
+  border-bottom: 1px;
+  border-right: 1px;
+}
+
 .GridForDesktop {
   @apply mx-6 bg-gradient-to-r from-slate-200 to-slate-300 bg-clip-text text-transparent;
 }
+
 .GridDiv {
   @apply grid grid-cols-2 grid-rows-2 gap-4 pt-6 mobile:mt-0;
 }

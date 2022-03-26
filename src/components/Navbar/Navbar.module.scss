@@ -1,9 +1,10 @@
 .NavbarContainer {
-  @apply border-white border-opacity-10 border-2;
+  @apply border-2 border-white border-opacity-10;
   @apply h-min w-full;
   @apply bg-black bg-opacity-40;
-  @apply flex fixed justify-center items-center;
+  @apply fixed flex items-center justify-center;
 }
+
 .NavbarContent {
   @apply flex flex-row items-center justify-between;
   @apply w-[1330px];
